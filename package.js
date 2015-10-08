@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'dinf-uern:footer',
+  name: 'dinf:footer',
   version: '1.0.0',
   // Brief, one-line summary of the package.
   summary: 'componente de rodapé para aplicações',
@@ -30,5 +30,5 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('dinf-uern:footer');
+  api.use('dinf:footer');
 });
