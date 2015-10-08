@@ -21,8 +21,11 @@ Package.onUse(function(api) {
     'lib/modules/footer.js',
     'lib/templates/footer.html',
     'lib/templates/footer.js',
-    'lib/stylesheets/footer.css',
-    'public/images/dinf-uern-logo.png',
+    'lib/stylesheets/footer.css'
+  ], ['client']);
+
+  api.addAssets([
+    'public/images/dinf-uern-logo.png'
   ], ['client']);
 
   api.export("Footer", ['client']);
